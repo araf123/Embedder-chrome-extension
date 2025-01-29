@@ -1,0 +1,45 @@
+<html>
+<head>
+  <style>
+    body {
+      width: 200px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    #injectScript {
+      background-color: #4CAF50;
+      color: white;
+    }
+    #injectScript:hover {
+      background-color: #45a049;
+    }
+    #removeScript {
+      background-color: #f44336;
+      color: white;
+    }
+    #removeScript:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+  <h3>Embed Media</h3>
+  <button id="injectScript">Enable Embedder</button>
+  <button id="removeScript">Disable Embedder</button>
+  <script src="popup.js"></script>
+  
+  Use "/" to toggle overlay<br>
+  Use "," and "." to Dececrease and Increase Overlay
+  
+</body>
+</html>
